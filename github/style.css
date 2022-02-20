@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.home{
+    margin-top: 170px;
+    margin-left: 120px;
+    height: 100px;
+    width: 250px;
+    text-align: left;
+}
+
+h2, .informacoes, .input-user, .botao-pesquisar{
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+
+h2{
+    position:relative;
+    color: #32264D;
+    font-size: 36px;
+}
+
+.informacoes{
+    color: #6A6180;
+    size: 16px;
+    max-width: 279;
+    min-height: 16px;
+}
+.input-user{
+    height: 72px;
+    width: 352px;
+    left: 256px;
+    top: 415px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    box-decoration-break: none;
+    font-size: 18px;
+    padding: 24px 28px 24px 24px;
+    text-decoration: none;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 352px;
+    height: 52px;
+    color: white;
+    background-color: #F25D27;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-bottom: 0;
+}
+
+.background{
+    position: absolute;
+    margin-left: 690px;
+    top: 0;
+    height: 100px;
+}
+
+.image{
+    position: absolute;
+}
+
